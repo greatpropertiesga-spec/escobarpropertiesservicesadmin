@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --brand:#1a4fa0;--brand-light:#2a6ad4;--accent:#f26522;
+  --brand:#2b90c8;--brand-light:#3daee0;--accent:#f26522;
   --bg:#f4f7fc;--surface:#ffffff;--card:#ffffff;
   --border:#dce3ef;--border-strong:#c0ccde;
   --text:#1a1a2e;--text-2:#4a5568;--text-3:#9aa0ad;
@@ -398,8 +398,8 @@ tr:hover td{background:#f8fafc}
 <div class="toasts" id="toasts"></div>
 
 <script>
-const SBU = '__SB_URL__';
-const KEY = '__SB_KEY__';
+const SBU = '__PEGA_TU_SUPABASE_URL_AQUI__';  // ← reemplaza con tu URL
+const KEY = '__PEGA_TU_SUPABASE_ANON_KEY_AQUI__';  // ← reemplaza con tu anon key
 const BKT = 'eps-media';
 const H = { 'apikey': KEY, 'Authorization': 'Bearer ' + KEY, 'Content-Type': 'application/json', 'Prefer': 'return=representation' };
 
